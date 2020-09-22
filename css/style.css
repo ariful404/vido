@@ -1,0 +1,136 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.navbar{
+	background-image: url('../img/navng.jpg');
+	background-size: cover;
+}
+ul li{
+	padding-left: 20px;
+}
+ul li a{
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+}
+#home{
+	background-image: url('../img/bg1.png');
+	min-height: 998px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#home h3{
+	font-weight: 700;
+}
+#home img{
+	max-width: 400px;
+  height: 555px;
+}
+#home2 h4{
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+#home2 p{
+	font-size: 14px;
+	padding-top: 20px;
+	line-height: 30px;
+}
+/* ABOUT CSS */
+#about button{
+	background-color: #47c3fa;
+	width: 200px;
+	height: 50px;
+}
+#about h3{
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+#about h5{
+	font-size: 14px;
+	font-weight: 700;
+}
+#about p{
+	line-height: 40px;
+}
+
+#about .fa{
+	background: #47c3fa;
+	padding: 4px;
+	border-radius: 50px;
+}
+#about h4{
+	font-size: 15px;
+	font-weight: 700;
+}
+/* APP CSS */
+#app{
+	background-image: url('../img/bg2.png');
+}
+#app img1{
+	width: 200px;
+	height: 300px;
+}
+#app h3{
+	font-weight: 700;
+}
+#app p{
+	line-height: 40px;
+	color: #fff;
+}
+#app .row{
+	padding-top: 70px;
+	padding-bottom: 120px;
+}
+/* INFO SECTION */
+#info .box{
+	position: absolute;
+	margin-top: -82px;
+	left: 37%;
+	right: 37%;
+	width: 250px;
+	height: 70px;
+	background-color:  rgba(253,110,113,1);
+}
+#info ul li a{
+	color: #333;
+	font-weight: 400;
+}
+#info h3{
+	font-size: 16px;
+	font-weight: 700;
+}
+#info h2{
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+#info p{
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+/* FOOTER CSS */
+#footer{
+	background: #333;
+}
+#footer i{
+	text-decoration: none;
+	font-size: 30px;
+	padding-left: 25px;
+	color: #fff;
+}
+
+
+@media(max-width: 991px){
+	#footer i{
+		text-decoration: none;
+		font-size: 20px;
+		padding-left: 20px;
+		color: #fff;
+	}
+
+}
